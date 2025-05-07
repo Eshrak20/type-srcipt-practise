@@ -5,5 +5,5 @@
     return result
   }
 
-  console.log(getDisplayName())
+  console.log(getDisplayName("E"))
 }
