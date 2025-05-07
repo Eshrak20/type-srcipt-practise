@@ -29,10 +29,10 @@
     | "FamilyMembers";
 
   type PersonString = {
-    [key in keyof Person]: string;
+    [k in Person]: string;
   };
 
-  const user: Person = {
+  const user: PersonString = {
     Name: "Eshrak",
     Address: "Dhaka",
     Hair: "Black",
@@ -47,4 +47,17 @@
     Friends: "Siam",
   };
   console.log(user);
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
