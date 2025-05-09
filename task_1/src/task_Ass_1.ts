@@ -111,9 +111,13 @@
 //   getDayType(Day.Friday);
 
 
+type Todo = {
+  
+}
 
+const lastProblem = async (): squareAsync => {
 
-
+}
 
 
 
